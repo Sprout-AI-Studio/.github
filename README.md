@@ -4,7 +4,7 @@ Org-wide defaults for Sprout AI Studio.
 
 ## ⚠️ This repository is public
 
-It has to be. GitHub only serves default community health files to private
+GitHub only serves default community health files to private
 repositories from a **public** `.github` repo. Every file here is visible to anyone.
 
 Before adding anything, assume it will be read outside the company. No customer names,
