@@ -110,9 +110,9 @@ doesn't go in the body — the body is product.
 
 ## Open questions
 
-Open questions live only in investigation tickets. Everywhere else, a question either
-has an owner and a date, in which case it's Left Open, or it isn't ready to be in the
-ticket.
+Open questions live only in investigation tickets. A question about *what* to build
+means the ticket isn't ready — answer it, or file a Research ticket. A decision handed
+to the assignee about *how* to build it is Left Open, with who resolves it and when.
 
 ## Drafting with Claude
 
