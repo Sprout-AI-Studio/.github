@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: How we write tickets
+    url: https://github.com/Sprout-AI-Studio/.github/blob/main/CONTRIBUTING.md
+    about: What goes in each section, and the four checks to run before you post.
