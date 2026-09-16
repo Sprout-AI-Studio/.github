@@ -22,6 +22,15 @@ Four checks before posting, from our four tests for writing with AI:
 
 These four are on the author. A tool can run the self-review; it can't do these.
 
+## The detail isn't the valuable part. Your thinking is.
+
+Use common sense where the ticket leaves gaps, and say something when the gap is one
+you can't fill, when a real product decision is missing, or when the ask doesn't fit
+the week.
+
+Neither side gets this right alone. Sometimes you'll be given too little; sometimes
+you'll assume too much. The fix is a quick conversation, not a longer ticket.
+
 ## The four templates
 
 | Template | Use it when |
@@ -32,6 +41,11 @@ These four are on the author. A tool can run the self-review; it can't do these.
 | **Epic** | The broader outcome, wrapping a set of features and tasks. |
 
 Epics are for product. Sub-issues are for technical.
+
+**Before writing an epic, check the conversation has happened.** A large epic starts
+as a doc everyone reads and a discussion that lands on a plan — brainstorming over
+video beats writing it out. The ticket records the outcome; it isn't the place to work
+it out.
 
 A new bug gets a new ticket that references the old one rather than reopening it.
 Keep statuses current: in progress → in review → done.
@@ -97,7 +111,8 @@ results, and the questions it must answer.
 ### Left Open
 
 Decisions purposely left to the assignee, and why. Naming them here is a deliberate
-handoff, not a gap. Each one names who resolves it and when.
+handoff, not a gap. Each one names who resolves it and when. See the planning doc for
+who decides what.
 
 A decision you've already made but haven't written down is not Left Open. If you know
 you want the chips gone, say so in the WHAT. Left Open is only for decisions you're
@@ -116,6 +131,15 @@ to the assignee about *how* to build it is Left Open, with who resolves it and w
 
 ## Drafting with Claude
 
-Claude drafts; you own it. The `issue-writing` skill carries these conventions and
-will interview you when something's missing or unclear. It won't run the four checks
-above — those stay with the author.
+Claude drafts; you own it. The `issue-writing` skill carries these conventions.
+
+**Expect to be asked questions.** The skill reads the code first, then asks about
+what's left over — a gap it can't fill, a product decision nobody has made, or an ask
+that doesn't fit the week. Being asked isn't the tool failing. Answering three
+questions before a draft is cheaper than editing a ticket built on guesses.
+
+When it can't ask — you're not there, or it's working through a batch — it marks the
+gap in the ticket with a ❓ instead of guessing quietly. Those are yours to resolve
+before posting.
+
+It won't run the four checks above. Those stay with the author.
